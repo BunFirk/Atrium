@@ -4,3 +4,5 @@ export { HomeInStartPage } from "./homeInStartPage/HomeInStartPage";
 export { FindProperty } from "./findProperty/FindProperty";
 export { SearchHeader } from "./header/searchHeader/SearchHeader";
 export { Header } from "./header/Header";
+export { BuildingCardView } from "./propertyShowCase/BuildingCardView"
+export { Footer } from "./footer/Footer"

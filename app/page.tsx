@@ -1,4 +1,4 @@
-import { FindProperty, Header, HomeInStartPage, PropertyShowCase, WhyChooseUs } from "@/components/ui";
+import { FindProperty, Footer, Header, HomeInStartPage, PropertyShowCase, WhyChooseUs } from "@/components/ui";
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
         <HomeInStartPage/>
         <WhyChooseUs/>
         <PropertyShowCase/>
+        <Footer/>
     </>
   );
 }
