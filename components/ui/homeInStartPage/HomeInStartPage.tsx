@@ -59,13 +59,13 @@ export function HomeInStartPage() {
                 </div>
             </div> 
             <div className="mx-24">
-                <div className="w-full xl:h-[500px] lg:h-[400px] md:h-[300px] m-auto bg-zinc-700 text-white">
+                <div className="w-full m-auto max-h-[500px] bg-zinc-700 text-white">
                     <div className="flex">
                         <div className="w-1/2">
-                            <p className="ml-8 pt-6 text-5xl font-roboto font-semibold">About Us</p>
-                            <p className="ml-8 mt-4 text-xl pr-2 font-normal font-roboto">At EliteNest Realty, we believe that buying or selling a property should be an exciting and rewarding journey, not a stressful one. With years of experience in the real estate market, our team of dedicated professionals is committed to providing top-notch service, expert guidance, and exclusive property opportunities.</p>
-                            <p className="ml-8 mt-6 text-xl pr-2 font-normal font-roboto">Our mission is to help our clients make informed decisions, whether they are purchasing their first home, expanding their investment portfolio, or relocating to a new city. We take pride in our transparency, market expertise, and personalized approach, ensuring that every client finds the perfect property that meets their needs and goals.</p>
-                            <p className="ml-8 mt-6 text-xl pr-2 font-normal font-roboto">Your dream home or investment is just one step away. Let’s make it a reality together!</p>
+                            <p className="ml-8 pt-6 xl:text-5xl lg:text-4xl font-roboto font-semibold">About Us</p>
+                            <p className="ml-8 mt-4 xl:text-xl lg:text-base pr-2 font-normal font-roboto">At EliteNest Realty, we believe that buying or selling a property should be an exciting and rewarding journey, not a stressful one. With years of experience in the real estate market, our team of dedicated professionals is committed to providing top-notch service, expert guidance, and exclusive property opportunities.</p>
+                            <p className="ml-8 mt-6 xl:text-xl lg:text-base pr-2 font-normal font-roboto">Our mission is to help our clients make informed decisions, whether they are purchasing their first home, expanding their investment portfolio, or relocating to a new city. We take pride in our transparency, market expertise, and personalized approach, ensuring that every client finds the perfect property that meets their needs and goals.</p>
+                            <p className="ml-8 mt-6 xl:text-xl lg:text-base pr-2 font-normal font-roboto mb-2">Your dream home or investment is just one step away. Let’s make it a reality together!</p>
                         </div>
                         <div className="w-1/2 h-[500px] relative">
                             <Image

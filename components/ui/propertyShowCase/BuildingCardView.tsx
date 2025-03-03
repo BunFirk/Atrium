@@ -8,7 +8,7 @@ export function BuildingCardView() {
 
     return (
         <div className="mt-4">
-            <div className="flex">
+            <div className="flex md:flex-col">
                 <BuildingCard
                 imgUrl="https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
                 title="Hose bro" 
@@ -38,7 +38,7 @@ export function BuildingCardView() {
                 />
             </div>
 
-            <div className="flex mt-5">
+            <div className="flex mt-5 md:flex-col">
                 <BuildingCard
                 imgUrl="https://images.unsplash.com/photo-1428366890462-dd4baecf492b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 title="Hose bro" 
@@ -68,7 +68,7 @@ export function BuildingCardView() {
                 />
             </div>
 
-            <div className="flex mt-5">
+            <div className="flex mt-5 md:flex-col">
                 <BuildingCard
                 imgUrl="https://images.unsplash.com/photo-1528810289438-283f885c31ef?q=80&w=1624&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 title="Hose bro" 
@@ -98,7 +98,7 @@ export function BuildingCardView() {
                 />
             </div>
 
-            <div className="flex mt-5">
+            <div className="flex mt-5 md:flex-col">
                 <BuildingCard
                 imgUrl="https://images.unsplash.com/photo-1603294278610-b5bd0506303e?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 title="Hose bro" 
@@ -130,7 +130,7 @@ export function BuildingCardView() {
 
             {showMore && (
                 <div>
-                    <div className="flex mt-5">
+                    <div className="flex mt-5 md:flex-col">
                         <BuildingCard
                         imgUrl="https://images.unsplash.com/photo-1551766472-62096056b476?q=80&w=1618&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         title="Hose bro" 
@@ -160,7 +160,7 @@ export function BuildingCardView() {
                         />
                     </div>
 
-                    <div className="flex mt-5">
+                    <div className="flex mt-5 md:flex-col">
                         <BuildingCard
                         imgUrl="https://images.unsplash.com/photo-1509828787-2c5222ed78ed?q=80&w=1604&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         title="Hose bro" 
