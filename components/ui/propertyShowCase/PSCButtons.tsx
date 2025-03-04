@@ -5,7 +5,7 @@ export function PSCButtons() {
     const [activeButton, setActiveButton] = useState(1)
 
     return (
-        <div className="mt-12 mx-auto">
+        <div className="mt-12 xs:mx-auto md:mx-auto sm:mx-auto mx-1">
             <div className="mx-auto flex justify-items-center items-center">
                 <button
                 onClick={() => setActiveButton(1)}
