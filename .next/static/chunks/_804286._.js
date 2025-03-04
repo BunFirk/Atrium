@@ -44,7 +44,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$image$2f$photo
 function BuildingCard({ imgUrl, title, description, price }) {
     const imgSrc = imgUrl || __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$image$2f$photo_2025$2d$03$2d$01_16$2d$44$2d$09$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$components$2f$image$2f$photo_2025$2d$03$2d$01_16$2d$44$2d$09$2e$jpg__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "m-auto w-[250px] h-[300px] relative rounded-xl overflow-hidden bg-slate-100 md:mt-4",
+        className: "m-auto w-[250px] mt-3 h-[300px] relative rounded-xl overflow-hidden bg-slate-100 md:mt-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 src: imgSrc,
@@ -128,11 +128,12 @@ var _s = __turbopack_refresh__.signature();
 function BuildingCardView() {
     _s();
     const [showMore, setShowMore] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const cardClass = "flex flex-col sm:flex-col xl:flex-row mt-5"; // Убираем повторение
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "mt-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex md:flex-col",
+                className: cardClass,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
                         imgUrl: "https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJ1aWxkaW5nfGVufDB8fDB8fHww",
@@ -141,7 +142,7 @@ function BuildingCardView() {
                         price: 9.999
                     }, void 0, false, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 12,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -151,7 +152,7 @@ function BuildingCardView() {
                         price: 182.958
                     }, void 0, false, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 19,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -161,7 +162,7 @@ function BuildingCardView() {
                         price: 50.859
                     }, void 0, false, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -177,160 +178,13 @@ function BuildingCardView() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                lineNumber: 11,
+                lineNumber: 14,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex mt-5 md:flex-col",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro",
-                        description: "Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 9.999
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 42,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1529307474719-3d0a417aaf8a?q=80&w=1880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro2",
-                        description: "2Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 182.958
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 49,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1542718786-2e81a9d3dfac?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro3",
-                        description: "3Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 50.859
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 56,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1579419964575-8c5d90b6522b?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro4",
-                        description: "4Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 790.999
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 63,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                lineNumber: 41,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex mt-5 md:flex-col",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1528810289438-283f885c31ef?q=80&w=1624&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro",
-                        description: "Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 9.999
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 72,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1532080050117-ffecb3f9ceaf?q=80&w=1687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro2",
-                        description: "2Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 182.958
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 79,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1600596525163-36b26caa9c89?q=80&w=1683&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro3",
-                        description: "3Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 50.859
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 86,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1526546334624-2afe5b01088d?q=80&w=1899&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro4",
-                        description: "4Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 790.999
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 93,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                lineNumber: 71,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex mt-5 md:flex-col",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1603294278610-b5bd0506303e?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro",
-                        description: "Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 9.999
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 102,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1507035634975-f1a99b117331?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro2",
-                        description: "2Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 182.958
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 109,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1496851473196-e26508c21494?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro3",
-                        description: "3Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 50.859
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 116,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
-                        imgUrl: "https://images.unsplash.com/photo-1534239697798-120952b76f2b?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        title: "Hose bro4",
-                        description: "4Lorem ipsum is susyfgddfgdfg dfgdfgfdgdf gdfgdfg dfgdfgdfsg sdfgdsfg3",
-                        price: 790.999
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 123,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                lineNumber: 101,
-                columnNumber: 13
-            }, this),
-            showMore && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            showMore && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex mt-5 md:flex-col",
+                        className: cardClass,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
                                 imgUrl: "https://images.unsplash.com/photo-1551766472-62096056b476?q=80&w=1618&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -339,7 +193,7 @@ function BuildingCardView() {
                                 price: 9.999
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 134,
+                                lineNumber: 45,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -349,7 +203,7 @@ function BuildingCardView() {
                                 price: 182.958
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 141,
+                                lineNumber: 51,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -359,7 +213,7 @@ function BuildingCardView() {
                                 price: 50.859
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 148,
+                                lineNumber: 57,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -369,17 +223,17 @@ function BuildingCardView() {
                                 price: 790.999
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 155,
+                                lineNumber: 63,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 133,
+                        lineNumber: 44,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex mt-5 md:flex-col",
+                        className: cardClass,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
                                 imgUrl: "https://images.unsplash.com/photo-1509828787-2c5222ed78ed?q=80&w=1604&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -388,7 +242,7 @@ function BuildingCardView() {
                                 price: 9.999
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 164,
+                                lineNumber: 72,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -398,7 +252,7 @@ function BuildingCardView() {
                                 price: 182.958
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 171,
+                                lineNumber: 78,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -408,7 +262,7 @@ function BuildingCardView() {
                                 price: 50.859
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 178,
+                                lineNumber: 84,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$propertyShowCase$2f$BuildingCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BuildingCard"], {
@@ -418,56 +272,46 @@ function BuildingCardView() {
                                 price: 790.999
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 185,
+                                lineNumber: 90,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 163,
+                        lineNumber: 71,
                         columnNumber: 21
                     }, this)
                 ]
-            }, void 0, true, {
-                fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                lineNumber: 132,
-                columnNumber: 17
-            }, this),
+            }, void 0, true),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mx-auto mt-5",
-                    children: !showMore && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: (e)=>setShowMore(!showMore),
-                        className: "text-white font-roboto flex bg-zinc-800 px-4 py-1 rounded-full mx-auto justify-items-center items-center text-lg",
-                        children: [
-                            "More ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__["ArrowDown"], {
-                                className: "stroke-white"
-                            }, void 0, false, {
-                                fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                                lineNumber: 201,
-                                columnNumber: 31
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                        lineNumber: 198,
-                        columnNumber: 25
-                    }, this)
-                }, void 0, false, {
+                className: "mx-auto mt-5",
+                children: !showMore && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: ()=>setShowMore(!showMore),
+                    className: "text-white font-roboto flex bg-zinc-800 px-4 py-1 rounded-full mx-auto justify-items-center items-center text-lg",
+                    children: [
+                        "More ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__["ArrowDown"], {
+                            className: "stroke-white"
+                        }, void 0, false, {
+                            fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
+                            lineNumber: 107,
+                            columnNumber: 30
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                    lineNumber: 196,
-                    columnNumber: 17
+                    lineNumber: 103,
+                    columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-                lineNumber: 195,
+                lineNumber: 101,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/propertyShowCase/BuildingCardView.tsx",
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 9
     }, this);
 }

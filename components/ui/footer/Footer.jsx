@@ -9,7 +9,7 @@ export function Footer() {
                     <p className="mt-2">+1-111-111-11-11</p>
                 </div>
                 <div className="w-1/2 flex justify-end mt-6">
-                    <h1 className="text-6xl font-bona font-bold mr-14">Atrium</h1>
+                    <h1 className="xl:text-6xl md:text-5xl sm:text-5xl text-3xl font-bona font-bold mr-14">Atrium</h1>
                 </div>
             </div>
         </div>

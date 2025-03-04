@@ -14,7 +14,7 @@ export function BuildingCard({ imgUrl, title, description, price }: BuildingCard
     const imgSrc = imgUrl || noImg
 
   return (
-    <div className="m-auto w-[250px] h-[300px] relative rounded-xl overflow-hidden bg-slate-100 md:mt-4">
+    <div className="m-auto w-[250px] mt-3 h-[300px] relative rounded-xl overflow-hidden bg-slate-100 md:mt-4">
       <Image
         src={imgSrc}
         width={250}
