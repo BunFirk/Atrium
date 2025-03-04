@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Bona_Nova_SC } from "next/font/google";
 import "./globals.css";
 
 /*
