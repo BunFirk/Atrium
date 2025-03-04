@@ -9,7 +9,7 @@ export function FindProperty() {
             </h1>
 
             <div className="mx-auto font-roboto sm:w-3/4 xl:w-3/6 xl:text-[19px] sm:text-3xl text-2xs mt-2 sm:mt-10">
-                <p>Whether you're looking for a dream home, a smart investment,</p>
+                <p>Whether you&apos;re looking for a dream home, a smart investment,</p>
                 <p>or a seamless property transaction, EliteNest Realty is here to guide you every step of the way.</p>
                 <p>With our extensive market knowledge and personalized approach, we make buying and selling real estate a stress-free experience.</p>
             </div>
