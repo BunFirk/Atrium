@@ -1,6 +1,6 @@
 export function FindProperty() {
     return (
-        <div className="sm:flex xl:flex-row sm:flex-col gap-x-2 mx-3 mx-auto mt-8">
+        <div className="sm:flex xl:flex-row sm:flex-col gap-x-2 mx-3 mx-1 mt-8">
             <h1 className="mx-auto font-roboto xl:w-3/5 xl:text-[50px] sm:text-6xl text-2xl font-light sm:items-center sm:justify-center sm:flex sm:flex-col">
                 Find Your Perfect Property
                 <div className="flex">
