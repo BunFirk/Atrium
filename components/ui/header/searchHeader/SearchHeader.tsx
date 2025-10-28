@@ -13,6 +13,8 @@ export function SearchHeader() {
         border-solid
         border-zinc-800
         bg-zinc-300
+        rounded-lg
+        
         h-[60px]
         flex
         items-center

@@ -63,10 +63,10 @@ function BuildingCard({ imgUrl, title, description, price }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 left-0 w-full bg-gradient-to-t from-white/75 to-transparent bg-opacity-50 text-zinc-900 p-2",
+                className: "absolute bottom-0 left-0 w-full bg-gradient-to-t from-neutral-600/75 to-transparent bg-opacity-50 text-zinc-900 p-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-pretty font-roboto font-bold line-clamp-1 mb-1 text-xl text-zinc-900/95 mt-5",
+                        className: "text-pretty font-roboto font-bold line-clamp-1 mb-1 text-xl text-neutral-100/95 mt-5",
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCard.tsx",
@@ -74,7 +74,7 @@ function BuildingCard({ imgUrl, title, description, price }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-pretty font-roboto font-medium break-words line-clamp-2 mb-1 text-base text-neutral-800/95",
+                        className: "text-pretty font-roboto font-medium break-words line-clamp-2 mb-1 text-base text-neutral-100/95",
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/components/ui/propertyShowCase/BuildingCard.tsx",
@@ -82,7 +82,7 @@ function BuildingCard({ imgUrl, title, description, price }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-pretty font-roboto font-bold line-clamp-1 text-lg text-neutral-900/95",
+                        className: "text-pretty font-roboto font-bold line-clamp-1 text-lg text-green-200/95",
                         children: [
                             "$",
                             price
@@ -331,7 +331,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 function PSCButtons() {
     const [activeButton, setActiveButton] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(1);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "mt-12 mx-auto",
+        className: "mt-12 xs:mx-auto md:mx-auto sm:mx-auto mx-1",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto flex justify-items-center items-center",
             children: [

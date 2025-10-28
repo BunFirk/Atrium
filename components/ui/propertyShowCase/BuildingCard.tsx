@@ -22,10 +22,10 @@ export function BuildingCard({ imgUrl, title, description, price }: BuildingCard
         alt="Building image"
         className="object-cover"
       />
-      <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-white/75 to-transparent bg-opacity-50 text-zinc-900 p-2">
-        <p className="text-pretty font-roboto font-bold line-clamp-1 mb-1 text-xl text-zinc-900/95 mt-5">{title}</p>
-        <p className="text-pretty font-roboto font-medium break-words line-clamp-2 mb-1 text-base text-neutral-800/95">{description}</p>
-        <p className="text-pretty font-roboto font-bold line-clamp-1 text-lg text-neutral-900/95">${price}</p>
+      <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-neutral-600/75 to-transparent bg-opacity-50 text-zinc-900 p-2">
+        <p className="text-pretty font-roboto font-bold line-clamp-1 mb-1 text-xl text-neutral-100/95 mt-5">{title}</p>
+        <p className="text-pretty font-roboto font-medium break-words line-clamp-2 mb-1 text-base text-neutral-100/95">{description}</p>
+        <p className="text-pretty font-roboto font-bold line-clamp-1 text-lg text-green-200/95">${price}</p>
       </div>
     </div>
   );
