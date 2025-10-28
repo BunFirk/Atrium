@@ -301,7 +301,7 @@ function HomeInStartPage() {
                                 layout: "fill",
                                 objectFit: "cover",
                                 quality: 100,
-                                className: "w-full h-full object-cover brightness-90"
+                                className: "w-full h-full object-cover brightness-90 rounded-md"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                 lineNumber: 9,
@@ -310,10 +310,10 @@ function HomeInStartPage() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute w-full h-full items-end flex",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-gradient-to-t from-white/75 to-transparent bg-opacity-50 w-full font-roboto",
+                                    className: "bg-gradient-to-t from-neutral-600/75 to-transparent bg-opacity-50 w-full font-roboto rounded-md",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-4xl font-semibold text-zinc-900/95 mt-20 ml-7",
+                                            className: "text-4xl font-semibold text-neutral-100/95 mt-20 ml-7",
                                             children: "Home Pon"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
@@ -321,7 +321,7 @@ function HomeInStartPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-xl font-medium text-zinc-900/95 mt-2 ml-7",
+                                            className: "text-xl font-medium text-neutral-100/95 mt-2 ml-7",
                                             children: "Lorem ipsum liric look design cats"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
@@ -329,7 +329,7 @@ function HomeInStartPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-xl font-medium text-zinc-900/95 mb-4 ml-7",
+                                            className: "text-xl font-medium text-neutral-100/95 mb-4 ml-7",
                                             children: "Lorem ipsum liric look design cats brat sophie"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
@@ -337,7 +337,7 @@ function HomeInStartPage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-4xl font-semibold ml-7 text-zinc-900/100 mb-3",
+                                            className: "text-4xl font-semibold ml-7 text-green-200/100 mb-3",
                                             children: "$2.999.999"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
@@ -372,7 +372,7 @@ function HomeInStartPage() {
                                     layout: "fill",
                                     objectFit: "cover",
                                     quality: 100,
-                                    className: "w-full h-full object-cover brightness-90"
+                                    className: "w-full h-full object-cover brightness-90 rounded-md"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                     lineNumber: 34,
@@ -391,7 +391,7 @@ function HomeInStartPage() {
                                     layout: "fill",
                                     objectFit: "cover",
                                     quality: 100,
-                                    className: "w-full h-full object-cover brightness-90"
+                                    className: "w-full h-full object-cover brightness-90 rounded-md"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                     lineNumber: 44,
@@ -410,7 +410,7 @@ function HomeInStartPage() {
                                     layout: "fill",
                                     objectFit: "cover",
                                     quality: 100,
-                                    className: "w-full h-full object-cover brightness-90"
+                                    className: "w-full h-full object-cover brightness-90 rounded-md"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                     lineNumber: 54,
@@ -436,7 +436,7 @@ function HomeInStartPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mx-4 md:mx-24",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full m-auto bg-zinc-700 text-white",
+                    className: "w-full m-auto bg-zinc-700 rounded-md text-white",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col md:flex-row",
                         children: [
@@ -488,7 +488,7 @@ function HomeInStartPage() {
                                     alt: "About Us",
                                     layout: "fill",
                                     objectFit: "cover",
-                                    className: "w-full h-full"
+                                    className: "w-full h-full rounded-md"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                     lineNumber: 84,
@@ -876,7 +876,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$header$2
 ;
 function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full h-[612px] bg-[url('https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1227')] bg-fixed bg-cover bg-center",
+        className: "w-full h-[612px] bg-[url('/images/background.jpg')] bg-fixed bg-cover bg-center",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto py-8 flex justify-center flex-col text-center",
             children: [

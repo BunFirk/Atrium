@@ -12,18 +12,18 @@ export function HomeInStartPage() {
             layout="fill"
             objectFit="cover"
             quality={100}
-            className="w-full h-full object-cover brightness-90"
+            className="w-full h-full object-cover brightness-90 rounded-md"
           />
           <div className="absolute w-full h-full items-end flex">
-            <div className="bg-gradient-to-t from-white/75 to-transparent bg-opacity-50 w-full font-roboto">
-              <p className="text-4xl font-semibold text-zinc-900/95 mt-20 ml-7">Home Pon</p>
-              <p className="text-xl font-medium text-zinc-900/95 mt-2 ml-7">
+            <div className="bg-gradient-to-t from-neutral-600/75 to-transparent bg-opacity-50 w-full font-roboto rounded-md">
+              <p className="text-4xl font-semibold text-neutral-100/95 mt-20 ml-7">Home Pon</p>
+              <p className="text-xl font-medium text-neutral-100/95 mt-2 ml-7">
                 Lorem ipsum liric look design cats
               </p>
-              <p className="text-xl font-medium text-zinc-900/95 mb-4 ml-7">
+              <p className="text-xl font-medium text-neutral-100/95 mb-4 ml-7">
                 Lorem ipsum liric look design cats brat sophie
               </p>
-              <p className="text-4xl font-semibold ml-7 text-zinc-900/100 mb-3">
+              <p className="text-4xl font-semibold ml-7 text-green-200/100 mb-3">
                 $2.999.999
               </p>
             </div>
@@ -37,7 +37,7 @@ export function HomeInStartPage() {
               layout="fill"
               objectFit="cover"
               quality={100}
-              className="w-full h-full object-cover brightness-90"
+              className="w-full h-full object-cover brightness-90 rounded-md"
             />
           </div>
           <div className="w-full h-full m-auto aspect-square relative">
@@ -47,7 +47,7 @@ export function HomeInStartPage() {
               layout="fill"
               objectFit="cover"
               quality={100}
-              className="w-full h-full object-cover brightness-90"
+              className="w-full h-full object-cover brightness-90 rounded-md"
             />
           </div>
           <div className="w-full h-full m-auto aspect-square relative">
@@ -57,14 +57,14 @@ export function HomeInStartPage() {
               layout="fill"
               objectFit="cover"
               quality={100}
-              className="w-full h-full object-cover brightness-90"
+              className="w-full h-full object-cover brightness-90 rounded-md"
             />
           </div>
         </div>
       </div>
       {/* Секция About Us */}
       <div className="mx-4 md:mx-24">
-        <div className="w-full m-auto bg-zinc-700 text-white">
+        <div className="w-full m-auto bg-zinc-700 rounded-md text-white">
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/2 p-4">
               <p className="pt-6 xl:text-5xl lg:text-4xl md:text-4xl sm:text-4xl text-4xl font-roboto font-semibold">
@@ -86,7 +86,7 @@ export function HomeInStartPage() {
                 alt="About Us"
                 layout="fill"
                 objectFit="cover"
-                className="w-full h-full"
+                className="w-full h-full rounded-md"
               />
             </div>
           </div>
