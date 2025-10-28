@@ -155,7 +155,7 @@ function WhyChooseUs() {
                     className: "mx-auto w-full h-full mt-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "p-4 border-2 border-solid border-zinc-800 xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col",
+                            className: "p-4 border-2 border-solid border-zinc-800 rounded-md xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-bona xl:text-xl lg:text-base text-xs flex flex-row",
                                 children: [
@@ -180,7 +180,7 @@ function WhyChooseUs() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "p-4 border-2 border-solid border-zinc-800 xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col mt-8",
+                            className: "p-4 border-2 border-solid border-zinc-800 rounded-md xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col mt-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-bona xl:text-xl lg:text-base text-xs flex flex-row",
                                 children: [
@@ -205,7 +205,7 @@ function WhyChooseUs() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "p-4 border-2 border-solid border-zinc-800 xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col mt-8",
+                            className: "p-4 border-2 border-solid border-zinc-800 rounded-md xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col mt-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-bona xl:text-xl lg:text-base text-xs flex flex-row",
                                 children: [
@@ -230,7 +230,7 @@ function WhyChooseUs() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "p-4 border-2 border-solid border-zinc-800 xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col mt-8",
+                            className: "p-4 border-2 border-solid border-zinc-800 rounded-md xl:mx-36 md:mx-36 sm:mx-24 mx-1 flex items-center justify-items-start flex-col mt-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-bona xl:text-xl lg:text-base text-xs flex flex-row",
                                 children: [
@@ -330,7 +330,7 @@ function HomeInStartPage() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl font-medium text-neutral-100/95 mb-4 ml-7",
-                                            children: "Lorem ipsum liric look design cats brat sophie"
+                                            children: "Lorem ipsum liric look design"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                             lineNumber: 23,
@@ -460,7 +460,7 @@ function HomeInStartPage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-6 xl:text-xl lg:text-base font-normal font-roboto",
+                                        className: "mt-2 xl:text-xl lg:text-base font-normal font-roboto",
                                         children: "Our mission is to help our clients make informed decisions, whether they are purchasing their first home, expanding their investment portfolio, or relocating to a new city. We take pride in our transparency, market expertise, and personalized approach, ensuring that every client finds the perfect property that meets their needs and goals."
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
@@ -468,7 +468,7 @@ function HomeInStartPage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-6 xl:text-xl lg:text-base font-normal font-roboto mb-2",
+                                        className: "mt-2 xl:text-xl lg:text-base font-normal font-roboto mb-2",
                                         children: "Your dream home or investment is just one step away. Let’s make it a reality together!"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
@@ -488,7 +488,7 @@ function HomeInStartPage() {
                                     alt: "About Us",
                                     layout: "fill",
                                     objectFit: "cover",
-                                    className: "w-full h-full rounded-md"
+                                    className: "w-full h-full xl:rounded-r-md lg:rounded-b-md rounded-b-md"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/homeInStartPage/HomeInStartPage.tsx",
                                     lineNumber: 84,
@@ -876,12 +876,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$header$2
 ;
 function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full h-[612px] bg-[url('/images/background.jpg')] bg-fixed bg-cover bg-center",
+        className: "w-full h-[612px] bg-[url('/images/background.jpg')] brightness-90 bg-fixed bg-cover bg-center",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto py-8 flex justify-center flex-col text-center",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "mx-auto xl:text-9xl lg:text-9xl md:text-9xl font-bona font-bold mt-14 sm:text-9xl text-7xl",
+                    className: "mx-auto xl:text-9xl lg:text-9xl md:text-9xl font-bona font-bold mt-14 sm:text-9xl text-neutral-100 text-7xl",
                     children: "Atrium"
                 }, void 0, false, {
                     fileName: "[project]/components/ui/header/Header.tsx",
@@ -889,7 +889,7 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "mx-auto font-bona text-[27px]",
+                    className: "mx-auto font-bona text-[27px] text-neutral-100",
                     children: "Your Dream Home, Your Best Invest"
                 }, void 0, false, {
                     fileName: "[project]/components/ui/header/Header.tsx",

@@ -21,7 +21,7 @@ export function HomeInStartPage() {
                 Lorem ipsum liric look design cats
               </p>
               <p className="text-xl font-medium text-neutral-100/95 mb-4 ml-7">
-                Lorem ipsum liric look design cats brat sophie
+                Lorem ipsum liric look design 
               </p>
               <p className="text-4xl font-semibold ml-7 text-green-200/100 mb-3">
                 $2.999.999
@@ -73,10 +73,10 @@ export function HomeInStartPage() {
               <p className="mt-4 xl:text-xl lg:text-base font-normal font-roboto">
                 At EliteNest Realty, we believe that buying or selling a property should be an exciting and rewarding journey, not a stressful one. With years of experience in the real estate market, our team of dedicated professionals is committed to providing top-notch service, expert guidance, and exclusive property opportunities.
               </p>
-              <p className="mt-6 xl:text-xl lg:text-base font-normal font-roboto">
+              <p className="mt-2 xl:text-xl lg:text-base font-normal font-roboto">
                 Our mission is to help our clients make informed decisions, whether they are purchasing their first home, expanding their investment portfolio, or relocating to a new city. We take pride in our transparency, market expertise, and personalized approach, ensuring that every client finds the perfect property that meets their needs and goals.
               </p>
-              <p className="mt-6 xl:text-xl lg:text-base font-normal font-roboto mb-2">
+              <p className="mt-2 xl:text-xl lg:text-base font-normal font-roboto mb-2">
                 Your dream home or investment is just one step away. Let’s make it a reality together!
               </p>
             </div>
@@ -86,7 +86,7 @@ export function HomeInStartPage() {
                 alt="About Us"
                 layout="fill"
                 objectFit="cover"
-                className="w-full h-full rounded-md"
+                className="w-full h-full xl:rounded-r-md lg:rounded-b-md rounded-b-md"
               />
             </div>
           </div>
